@@ -1,0 +1,24 @@
+{
+  "name": "taskr-standard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js | tap-spec"
+  },
+  "dependencies": {
+    "standard": "*"
+  },
+  "devDependencies": {
+    "@taskr/clear": "*",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.7.0",
+    "taskr": "*"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Maximiliano Fierro",
+    "email": "elmasse@gmail.com"
+  },
+  "license": "ISC"
+}
