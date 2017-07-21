@@ -28,7 +28,7 @@ module.exports = function (task, utils) {
                     obj.filePath = p.relative(task.root, obj.filePath);
                     obj.output = obj.messages
                         .reduce( (prev, msg) => {
-                            return `${prev} ${obj.filePath}: ${msg.message}\n`
+                            return `${prev} ${obj.filePath} ${msg.line||0}: ${msg.column||0}: ${msg.message}\n`
                         }, '')
                     return obj;
                 });
@@ -42,7 +42,7 @@ module.exports = function (task, utils) {
                     plugin: '@taskr/standard',
                     error: `standard found ${report.errorCount} errors in ${num} ${noun}:\n ${msg}`
                 });
-            }            
+            }
         });
 	});
 };
