@@ -1,9 +1,8 @@
 # taskr-standard 
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/elmasse/taskr-standard.svg)](https://greenkeeper.io/)
-
 > Standard plugin for [Taskr](https://github.com/lukeed/taskr).
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/elmasse/taskr-standard.svg)](https://greenkeeper.io/)
 [![Build Status](https://travis-ci.org/elmasse/taskr-standard.svg?branch=master)](https://travis-ci.org/elmasse/taskr-standard)
 
 ## Install
