@@ -49,8 +49,6 @@ test('@taskr/standard failing messages', t => {
 				t.pass('allow `standard` to be chainable');
 				yield f.clear(tmp);
 
-        console.log(taskr.emit.args)
-
 				t.ok(taskr.emit.calledWith('plugin_error', sinon.match.has('error')), 'reports errors with file name, line, and column number');
 			}
 		}
