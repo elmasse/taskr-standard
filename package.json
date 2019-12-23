@@ -11,7 +11,7 @@
   },
   "devDependencies": {
     "@taskr/clear": "*",
-    "sinon": "^7.3.2",
+    "sinon": "^8.0.1",
     "tap-spec": "^5.0.0",
     "tape": "^4.11.0",
     "taskr": "*"
