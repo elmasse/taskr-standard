@@ -4,10 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "tape test/*.js | tap-spec"
+    "test": "tape test/*.js | tap-spec",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "dependencies": {
-    "standard": "*"
+    "standard": "*",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "@taskr/clear": "*",
@@ -21,5 +24,6 @@
     "name": "Maximiliano Fierro",
     "email": "elmasse@gmail.com"
   },
-  "license": "ISC"
+  "license": "ISC",
+  "snyk": true
 }
